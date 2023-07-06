@@ -1,0 +1,10 @@
+int LengthOfChar(char *a) {
+    int licznik = 0;
+    int i = 0;
+    while(a[i] != '\0'){
+        i+=1;
+        licznik+=1;
+    }
+    return licznik;
+    
+}
